@@ -20,7 +20,7 @@
 
 -module(riak_cs_manifest_fsm).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -behaviour(gen_fsm).
 

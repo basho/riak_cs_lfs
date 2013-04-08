@@ -23,8 +23,8 @@
 -module(riak_cs_list_objects_ets_cache).
 
 -behaviour(gen_server).
--include("riak_cs.hrl").
--include("list_objects.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
+-include_lib("riak_cs_core/include/list_objects.hrl").
 
 %% API
 -export([start_link/0,

@@ -20,7 +20,7 @@
 
 -module(riak_cs_lfs_utils).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -export([block_count/2,
          block_keynames/3,

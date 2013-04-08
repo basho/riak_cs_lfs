@@ -1,0 +1,12 @@
+{application, riak_cs_lfs,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { riak_cs_lfs_app, []}},
+  {env, []}
+ ]}.

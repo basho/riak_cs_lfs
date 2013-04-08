@@ -24,7 +24,7 @@
 
 -behaviour(gen_fsm).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -ifdef(TEST).
 -include_lib("eunit/include/eunit.hrl").

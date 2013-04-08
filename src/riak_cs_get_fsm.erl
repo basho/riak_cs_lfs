@@ -32,7 +32,7 @@
 
 -endif.
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 %% API
 -export([start_link/4,

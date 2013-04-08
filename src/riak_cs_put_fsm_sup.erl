@@ -24,7 +24,7 @@
 
 -behaviour(supervisor).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 %% API
 -export([start_put_fsm/2]).

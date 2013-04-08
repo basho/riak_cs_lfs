@@ -33,8 +33,8 @@
 -include_lib("eunit/include/eunit.hrl").
 -endif.
 
--include("riak_cs.hrl").
--include("list_objects.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
+-include_lib("riak_cs_core/include/list_objects.hrl").
 
 %% API
 -export([start_link/3,

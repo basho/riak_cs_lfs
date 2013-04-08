@@ -22,7 +22,7 @@
 
 -module(riak_cs_manifest_resolution).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 %% export Public API
 -export([resolve/1]).
