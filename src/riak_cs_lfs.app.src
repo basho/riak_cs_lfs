@@ -1,7 +1,7 @@
 {application, riak_cs_lfs,
  [
-  {description, ""},
-  {vsn, "1"},
+  {description, "Large file support for Riak CS"},
+  {vsn, "1.3"},
   {registered, []},
   {applications, [
                   kernel,
